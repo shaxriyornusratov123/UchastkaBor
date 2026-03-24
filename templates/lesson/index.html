@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Gradient</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <section class="form-container">
+            <h1>Login Form</h1>
+            <form action="http://127.0.0.1:8000/api/login/" method="post" class="login-form">
+                <input type="email" name="email" id="login-email" placeholder="Email">
+                <input type="password" name="password" id="login-password" placeholder="Password">
+                <input type="submit" value="LOGIN" id="login-submit-btn">
+            </form>
+
+            <div class="social-login-box">
+                <p class="login-via-text">Or login with</p>
+                <div class="social-login-btns">
+                    <div class="social-btns">
+                        <div class="facebook">
+                            <a href="facebook.com">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                        <div class="google">
+                            <a href="google.com">
+                                <i class="fa-brands fa-google"></i>
+                                <span>Google</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <p class="additional">Not a member? <a href="#" class="additional-link">Signup now</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
